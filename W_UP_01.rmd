@@ -81,6 +81,8 @@ A Welch two-sample t-test was conducted to compare the mean number of pushups co
 
 ```{r}
 
+t_result <- t.test(pushups ~ position, data = mydata)
+t_result
 
 
 ```
