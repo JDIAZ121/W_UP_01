@@ -70,7 +70,9 @@ mydata %>%
 
 
 ```
-A Welch two-sample t-test was conducted to compare the mean number of pushups completed by line players and skill players. The test produced a t-statistic of t = 5.43 with approximately 10.6 degrees of freedom, and a p-value of p = 0.00000942.
+Line players completed an average of 17.1 pushups (SD = 9.7, range 6–34, n = 8).
+Skill players completed an average of 49.7 pushups (SD = 23.0, range 18–108, n = 22).
+These descriptive results show that skill players tend to complete much more pushups than line players, and they also show greater variation in performance.
 
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
@@ -86,7 +88,13 @@ t_result
 
 
 ```
+A Welch two-sample t-test was conducted to compare the mean number of pushups completed by line players and skill players. The test produced a t-statistic of t = 5.43 with approximately 10.6 degrees of freedom and a p-value of p = 0.00000942.
 
+This p-value represents the probability of observing a difference in sample means as large as the one we found, or larger, if the null hypothesis were actually true—that is, if line and skill players truly had the same average number of pushups in the population.
+
+In other words, if there were no real difference, the chance of obtaining a difference this extreme from random sampling alone is about 0.00094% (less than one-thousandth of one percent).
+
+Because this probability is extraordinarily small, we reject the null hypothesis and conclude that skill players and line players do not perform the same average number of pushups.
 
 
 
@@ -94,6 +102,12 @@ t_result
 
 
 # Discussion and Conclusion
+
+The descriptive results showed a clear difference between the two groups, with skill players completing substantially more pushups on average than line players. The inferential test confirmed that this observed difference is extremely unlikely to have occurred by random chance alone if the population means were truly equal.
+
+Based on the very small p-value from the Welch t-test, we reject the null hypothesis and conclude that there is strong statistical evidence of a real difference in average pushup performance between line and skill players.
+
+This study is observational, so we cannot conclude that being a skill player causes higher pushup totals—other factors such as training, conditioning, or positional demands may explain the difference. However, the evidence strongly suggests that the two groups differ in their typical physical performance as measured by pushups.
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
